@@ -1,7 +1,7 @@
 This project is about forecasting the weekly Return on Investment (ROI) of Bitcoin. I was attracted to work on this project since it was one of the [Trilemma Capital Tournaments](https://www.trilemmacapital.com/tournament).
 The main question they were seeking to answer was:
 
-Given the Bitcoin price at 1 PM Pacific Time (20:00 PM GMT) on each Monday, what will the ROI be at 1 PM Pacific Time (20:00 PM GMT) on the next Monday?
+Given the Bitcoin price at 1 PM Pacific Time (8 PM GMT) on each Monday, what will the ROI be at 1 PM Pacific Time (8 PM GMT) on the next Monday?
 
 Their reference rate for the spot price of Bitcoin was the CoinDesk Bitcoin Price Index (CDIXBX). Since I could not find an API or Python library to provide such data, 
 I used the Crypto Coin Comparison Aggregated Index (CCCAGG) provided by the CryptoCompare platform. I had three reasons to use this index:
