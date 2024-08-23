@@ -16,7 +16,7 @@ In this project, we tried various methods including statistical models, deep lea
 The final model performance is promising, as it outperformed the baseline model with a benchmark MAE < 3.
 
 
-This repository contains five notebooks that document our approach to answering the main question of the tournament:
+This repository contains five notebooks, each with detailed descriptions and explanations of the approaches and techniques used.
 
 1. Analysis_Statistical_Models:
 In this notebook, we downloaded Bitcoin price data, calculated ROI, and explained the datasets used in the project. We also trained and evaluated statistical models.
@@ -31,6 +31,6 @@ This notebook follows the same approach as DL_Models_4h, but uses weekly ROI dat
 We used the Darts package, which is designed for time series analysis and forecasting, to apply gradient-boosting models like XGBoost and LightGBM. You can find more info about this package in [this repo](https://github.com/solmazkh114/TimeSeriesAnalysisForecasting).
 
 5. Inference:
-In this notebook, we aim to answer the tournament's main question: "Given the Bitcoin price at 1 PM Pacific Time (8 PM GMT) on Monday, July 29th, 2024, what will the ROI be at 1 PM Pacific Time (8 PM GMT) on Monday, August 5th, 2024?" We used the high-performing models trained in other notebooks to forecast the future value. The 50_runs_results directory contains CSV files with model results, which will help determine the final target value.
+In this notebook, we aim to answer a question similar to the tournament's question: "Given the Bitcoin price at 1 PM Pacific Time (8 PM GMT) on Monday, July 29th, 2024, what will the ROI be at 1 PM Pacific Time (8 PM GMT) on Monday, August 5th, 2024?" We used the high-performing models trained in other notebooks to forecast the future value. The 50_runs_results directory contains CSV files with model results, which will help determine the final target value.
 
    
